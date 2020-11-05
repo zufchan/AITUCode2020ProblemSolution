@@ -84,8 +84,10 @@ At University students and teachers like playing the game "Mafia" very much. Alo
 
 Input
 Input file has positive integer N, that the game leader shows at the beginning of the game.
+
 Output
 The first line must have number 1 if the first player wins or 2 in a reverse situation. If the first player wins, in the second line you need to print the first go - the digit that the first player needs to subtract from the number to guarantee win. If there are many ways to do first go, print any of them.
+
 Example
 Input:
 20
@@ -104,6 +106,7 @@ At the University one of the favorite lesson along with physical education is ma
 
 Input
 First line consists of a single integer T (1 ≤ T ≤ 2000) - the number of test cases. Each following line has space separated integers: B and C (1 ≤ B, C < 231).
+
 Output
 Print the answer A for each test case.
  
@@ -124,8 +127,10 @@ Input
 The first line contains two integer numbers n and m (1 <= n <= 10^5, 1 <= m <= 10^5) — the number of vertices and edges, respectively.
 The second line contains integers c1, c2, ..., c[2*n] (1 <= c[i] <= 1000) – numbers on vertices.
 The following m lines contain information about the graph edges. Each line contains 3 numbers x[i], y[i] and w[i] (1 <= x[i], y[i] <= 2*n, x[i] != y[i], 1 <= w[i] <= 1000) — the endpoints of the i-th edge, and number on this edge.
+
 Output
 Print one integer - difference between 2 player's score
+
 Example
 Input:
 2 2
@@ -154,10 +159,13 @@ Output:
 
 ### Problem G
 One of the favorite lessons among students is physical education. At the beginning of the lessons all students of one group are in the row. They want to avoid having too many girls or too many boys standing consecutively. The teacher decides to arrange the students in order to minimize the girls/boys regularity. The girls/boys regularity is the maximum number of students of the same gender that appears consecutively. Given the number of girls and boys in one group. Calculate the minimum girls-boys regularity among all possible positions.
+
 Input
 Input file contains several lines of input. Each line has two integers N and M representing the number of girls and boys in the group (0 ≤ N, M ≤ 1000). The end part of input is showed with two numbers "-1 -1"
+
 Output
 For each input line, print a single integer representing the minimum girls-boys regularity that an positions of N girls and M boys can have.
+
 Example
 Input: 
 1 11
@@ -170,26 +178,15 @@ Output:
 1
 999
 
-As you remember from the previous tasks of challenge, our students like the math lessons, especially the number theory. Today a teacher decided to give a new problem for students to think. He wrote N positive integers and formula f(m) = (m mod a[1]) + (m mod a[2]) + ...+ (m mod a[n]). Here, X mod Y denotes the remainder of the division of X by Y. Students need to find the maximum value of f.
-Input
-The first line of input includes integer N (2 <= N <= 3000). The following line has integers a[1], a[2], ..., a[N] (2 <= a[i] <= 10^5).
-Output
-Print the maximum value of f
-Example
-Input: 
-4
-2 4 5 4
-
-
-Output: 
-11
-
 ### Problem H
 As you remember from the previous tasks of challenge, our students like the math lessons, especially the number theory. Today a teacher decided to give a new problem for students to think. He wrote N positive integers and formula f(m) = (m mod a[1]) + (m mod a[2]) + ...+ (m mod a[n]). Here, X mod Y denotes the remainder of the division of X by Y. Students need to find the maximum value of f.
+
 Input
 The first line of input includes integer N (2 <= N <= 3000). The following line has integers a[1], a[2], ..., a[N] (2 <= a[i] <= 10^5).
+
 Output
 Print the maximum value of f
+
 Example
 Input: 
 4
@@ -204,20 +201,22 @@ You predict the price of a certain laptop for the next M days. Each day you will
 
 Input
 The first line of input includes integer M (2 <= M <= 5*10^5). The following line has integers a[1], a[2], ..., a[M] (1 <= a[i] <= 10^9), where a[i] is the price of the laptop on i-th day.
+
 Output
 Print one integer — maximum amount of money you can earn.
+
 Example
 Input: 
 7
 50 8 9 9 29 30 7
 
-
 Output: 
 42
+
+
 Input: 
 20
 9 29 8 9 13 4 14 27 16 11 27 14 4 29 23 17 3 9 30 19
-
 
 Output: 
 147
@@ -273,11 +272,13 @@ In the first test case, there are  instants when the two clock hands form a -deg
 
 10:54 and  minute.
 
-Sample Input 1	Sample Output 1
+Sample Input 1
 3
 00:00 23:59 0
 00:00 23:59 90
 18:00 18:01 180
+
+Sample Output 1
 22
 44
 1
